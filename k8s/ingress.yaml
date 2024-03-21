@@ -13,6 +13,6 @@ spec:
          pathType: Prefix
          backend:
            service:
-             name: auth
+             name: estudiante
              port:
                number: 8080
