@@ -18,7 +18,7 @@ import co.gov.javeriana.estudiante.estudiantes.dto.EstudianteDTO;
 import co.gov.javeriana.estudiante.estudiantes.services.EstudianteService;
 
 @RestController
-@RequestMapping(value = "/api/javeriana/estudiante")
+@RequestMapping(value = "/api/javeriana/estudiante/estudiante")
 public class EstudianteController {
 
     
