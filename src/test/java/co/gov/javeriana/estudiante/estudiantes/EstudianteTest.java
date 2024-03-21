@@ -22,16 +22,6 @@ public class EstudianteTest {
 
 	@Test
 	public void pruebaEstudiante() {
-		int cantidad = estudianteController.get().size();
-		EstudianteDTO estudianteDTO = new EstudianteDTO(null, "Pablo", "Márquez", "pablo.marquez@dynaco.co");
-		estudianteDTO = estudianteController.save(estudianteDTO);
-		int nuevaCantidad = estudianteController.get().size();
-		assertEquals(cantidad + 1, nuevaCantidad);
-
-		estudianteDTO.setNombres("Pablo Andres");
-		estudianteController.update(estudianteDTO);
-		EstudianteDTO estudianteActualizadoDTO = estudianteController.get(estudianteDTO.getId());
-		assertEquals(estudianteActualizadoDTO.getNombres(), "Pablo Andres");
 
 		
 

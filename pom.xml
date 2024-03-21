@@ -11,7 +11,7 @@
 	<groupId>co.gov.javeriana.estudiante</groupId>
 	<artifactId>estudiantes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>estudiantes</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
