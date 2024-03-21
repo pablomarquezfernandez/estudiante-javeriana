@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: contabilidad
-  namespace: marshando-backend
+  name: estudiante
+  namespace: thymeleaf
 spec:
   selector:
     matchLabels:
