@@ -17,7 +17,7 @@ spec:
          - name: github-secret
       containers:
          - name: contabilidad
-           image: localhost:5000/api-contabilidad 
+           image: localhost:5000/estudiante
            ports:
               - containerPort: 8080
            env:
