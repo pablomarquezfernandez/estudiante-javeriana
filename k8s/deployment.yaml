@@ -6,17 +6,17 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: contabilidad
+      app: estudiante
   replicas: 1
   template:
     metadata:
       labels:
-         app: contabilidad
+         app: estudiante
     spec:
       imagePullSecrets:
          - name: github-secret
       containers:
-         - name: contabilidad
+         - name: estudiante
            image: localhost:5000/estudiante:latest
            ports:
               - containerPort: 8080
